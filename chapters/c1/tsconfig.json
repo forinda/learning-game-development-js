@@ -1,0 +1,16 @@
+{
+    "references": [
+      {
+        "path": "./../tsconfig.base.json"
+      }
+    ],
+    "compilerOptions": {
+      "outDir": "dist", // Ensure this points correctly
+      "rootDir": "./src",
+      "declaration": true,
+      "strict": true // Optional but good practice
+    },
+    "exclude": ["node_modules", "dist"], // Exclude output directories
+    // "include": ["src/**/*.ts"]
+  }
+  

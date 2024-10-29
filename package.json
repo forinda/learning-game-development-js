@@ -1,0 +1,20 @@
+{
+  "name": "learning-game-development",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:c1": "yarn workspace c1 run dev"
+  },
+  "keywords": [],
+  "workspaces": [
+    "chapters/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
